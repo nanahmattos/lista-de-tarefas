@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+
+header {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+#container{
+    background-color: rgb(245, 231, 215);
+    border-radius: 10px;
+    padding: 25px;
+    width: 800px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
+    
+}
+
+input {
+    padding: 10px 0 ;
+    width: 500px ;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(0, 173, 241);
+    color: white;  
+    font-weight: bold;
+}
+
+form {
+    padding: 24px 0;
+    text-align: center;
+    
+}
+
+ul li {
+    padding: 10px 0;
+    display: flex;
+    justify-content:center;
+    cursor: pointer;
+    
+}
+
+.check-botao { 
+    text-decoration: line-through;
+    color: rgb(233, 81, 11);
+    
+}
